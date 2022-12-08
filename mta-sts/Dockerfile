@@ -1,4 +1,4 @@
-FROM linuxserver/swag:1.27.0
+FROM linuxserver/swag:1.28.0
 
 ARG CLOUDFLARE_TOKEN
 ARG STS_VERSION
