@@ -5,7 +5,7 @@ This docker-compose script uses linuxserver/swag to publish an MTA-STS policy. M
 Customize the `docker-compose.yml` file to your needs and run the following commands:
 
 ```shell
-sudo docker-compose -f docker-compose.yml build --no-cache
-sudo docker-compose -f docker-compose.yml up -d
+sudo docker compose -f docker-compose.yml build --no-cache
+sudo docker compose -f docker-compose.yml up -d
 sudo docker system prune --all --force
 ```
